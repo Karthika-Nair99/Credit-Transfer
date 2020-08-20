@@ -1,0 +1,153 @@
+*{
+margin:0;
+padding:0;
+font-family:'Roboto',sans-serif;}
+.container{
+width:100%;
+height:100%;
+background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('bg1.jpg');
+background-position:center;
+background-size:cover;
+}
+.menubar{
+  background-color: #0005;
+  overflow: hidden;
+}
+.menubar a {
+  
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px 14px ;
+  text-decoration: none;
+  font-size: 17px;
+}
+.menubar a:hover{
+  background-color: #ddd;
+  color: black;
+}
+.logo{
+	width:50px;
+	cursor:pointer;
+	padding: 0px 20px;
+}
+.menubar img{
+	width: 50px;
+	height:50px;
+}
+
+.login-form img{
+width:500px;
+height:200px;
+position:relative;
+margin-top:0px;
+opacity:1;
+}
+.login-form h1{
+	
+	font-size:30px;
+	font-family:Avanta Garde;
+	font-style: normal;
+	color: #696969;
+	text-align: center;
+	margin-top:15px;
+}
+.login-form h2{
+	font-size:23px;
+	font-family:Avanta Garde;
+	font-style: normal;
+	color: #696969;
+	text-align: left;
+	margin-top:5px;
+                margin-left:30px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 20px 20px;
+  
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px ;
+  margin-left:20px;
+
+}
+.form1{
+	
+height:700px;
+background-color:#FFFFF0;	
+
+width:500px;
+border:2px solid #696969;
+border-radius:40px 0 40px 0;
+margin-bottom:40px;
+}
+
+.form1 label {
+  display: block;
+  padding-left:30px;
+  font-size:20px;
+ padding-top:8px;
+ opacity:1;
+}
+.form1 input {
+  
+  border-radius: 5px;
+  background-color: #fff;
+  opacity:1;
+  padding: 4px 10px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 260px;
+  font-size:20px;
+  margin-left: 30px;
+  margin-top:5px;
+}
+.head1 hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width:500px;
+}
+select{
+  border:none;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 4px 10px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 260px;
+  font-size:20px;
+  margin-left: 30px;
+  margin-top:5px;
+font-family:Avanta Garde;
+font-style: normal;
+opacity:1;
+
+}
+#button{
+	background-color:#BC8F8F;	
+	margin-left:100px;
+  	color: white;
+  	padding: 12px 50px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 25px;
+	opacity:1;
+	
+}
+.container1 {
+  display: block;
+  position: relative;
+  
+  cursor: pointer;
+  margin-left:400px;
+    vertical-align: bottom
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
