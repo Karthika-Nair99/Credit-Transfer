@@ -40,7 +40,7 @@ if ($result2)
 {
 	echo "<script type='text/javascript'>
 	window.location.href='/internship/userdetails.php';
-	alert('Your event has been successfully booked!!!');
+	alert('Transaction successful!!!');
 </script>";
 
 	}
